@@ -1,0 +1,17 @@
+*.mapping
+# Python files
+__pycache__
+temp_file
+.pytest_cache
+*.bak
+# local testing
+tests/python-tests/*.xml
+.vscode
+Artifacts
+.idea/*
+venv/*
+junit
+dist/*
+MANIFEST
+VERSION
+.venv/
