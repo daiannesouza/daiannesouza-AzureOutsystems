@@ -5,7 +5,7 @@ steps:
     targetType: 'inline'
     script: |
       Write-Host "Create $(ArtifactsBuildFolder) directory on $(System.DefaultWorkingDirectory)"
-      mkdir "$(ArtifactsBuildFolder)" -Force
+      New-Item -Path "c:\" -Name "logfiles" -ItemType "directory"
     workingDirectory: $(System.DefaultWorkingDirectory)
   displayName: 'Create Artifacts Folder'
 
